@@ -1,0 +1,35 @@
+html,body{background:transparent!important;overflow:hidden!important}
+.controller.custom{position:relative;width:784px;height:520px;background:url("./assets/base.png") no-repeat 0 0}
+.custom.disconnected{opacity:.35}.custom.disconnected div{display:none}
+.custom .touchpad{position:absolute;left:283px;top:112px;width:218px;height:125px;background:url("./assets/touchpad.png") center/contain no-repeat;filter:drop-shadow(0 0 5px rgba(255,45,25,.35))}
+.custom .touchpad.pressed{filter:brightness(1.25) drop-shadow(0 0 11px rgba(255,45,25,1))}
+.custom .triggers{position:absolute;left:120px;top:34px;width:544px;height:72px}
+.custom .trigger{position:absolute;width:106px;height:72px;opacity:0;background-size:106px 72px!important}
+.custom .trigger.left{left:0;background:url("./assets/l2-pressed.png") center/contain no-repeat}
+.custom .trigger.right{right:0;background:url("./assets/r2-pressed.png") center/contain no-repeat}
+.custom .trigger-button{position:absolute;width:106px;height:72px;background-size:106px 72px!important}
+.custom .trigger-button.left{left:0;background:url("./assets/l2.png") center/contain no-repeat}
+.custom .trigger-button.right{right:0;background:url("./assets/r2.png") center/contain no-repeat}
+.custom .bumpers{position:absolute;left:118px;top:87px;width:548px;height:58px}
+.custom .bumper{position:absolute;width:112px;height:58px;background-size:112px 58px!important}
+.custom .bumper.left{left:0;background:url("./assets/l1.png") center/contain no-repeat}
+.custom .bumper.right{right:0;background:url("./assets/r1.png") center/contain no-repeat}
+.custom .bumper.left.pressed{background-image:url("./assets/l1-pressed.png")}
+.custom .bumper.right.pressed{background-image:url("./assets/r1-pressed.png")}
+.custom .arrows{position:absolute;left:270px;top:248px;width:244px;height:52px}
+.custom .back,.custom .start{position:absolute;width:86px;height:52px;background-size:86px 52px!important}
+.custom .back{left:0;background:url("./assets/share.png") center/contain no-repeat}.custom .start{right:0;background:url("./assets/options.png") center/contain no-repeat}
+.custom .back.pressed{background-image:url("./assets/share-pressed.png")}.custom .start.pressed{background-image:url("./assets/options-pressed.png")}
+.custom .abxy{position:absolute;right:125px;top:175px;width:150px;height:150px}
+.custom .button{position:absolute;width:82px;height:82px;background-size:82px 82px!important}
+.custom .a{left:34px;bottom:-5px;background:url("./assets/a.png")}.custom .b{right:-5px;top:34px;background:url("./assets/b.png")}.custom .x{left:-5px;top:34px;background:url("./assets/x.png")}.custom .y{left:34px;top:-5px;background:url("./assets/y.png")}
+.custom .a.pressed{background-image:url("./assets/a-pressed.png")}.custom .b.pressed{background-image:url("./assets/b-pressed.png")}.custom .x.pressed{background-image:url("./assets/x-pressed.png")}.custom .y.pressed{background-image:url("./assets/y-pressed.png")}
+.custom .dpad{position:absolute;left:128px;top:176px;width:150px;height:150px}
+.custom .face{position:absolute;width:62px;height:62px;background:url("./assets/dpad.png") center/contain no-repeat}
+.custom .face.up{left:44px;top:0}.custom .face.right{right:0;top:44px;transform:rotate(90deg)}.custom .face.down{left:44px;bottom:0;transform:rotate(180deg)}.custom .face.left{left:0;top:44px;transform:rotate(-90deg)}
+.custom .face.pressed{background-image:url("./assets/dpad-pressed.png");filter:drop-shadow(0 0 7px rgba(255,45,25,.95))}
+.custom .sticks{position:absolute;left:255px;top:325px;width:274px;height:92px}
+.custom .stick{position:absolute;width:92px;height:92px;background:url("./assets/stick.png") center/contain no-repeat}
+.custom .stick.left{left:0}.custom .stick.right{right:0}.custom .stick.pressed{background-image:url("./assets/stick-pressed.png");filter:drop-shadow(0 0 7px rgba(255,45,25,.95))}
+.custom .meta{position:absolute;left:355px;top:302px;width:73px;height:63px;background:url("./assets/ps.png") center/contain no-repeat}
+.custom .meta.pressed{background-image:url("./assets/ps-pressed.png");filter:drop-shadow(0 0 7px rgba(255,45,25,.95))}
